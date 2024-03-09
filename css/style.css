@@ -96,11 +96,11 @@ h1 {
                0 0 20px rgb(248, 238, 238),
                0 0 30px rgb(223, 215, 240),
                0 0 40px rgb(205, 201, 219);
-               animation: entradaTexto 2s ease-in-out; 
+               animation: entradaTexto 10s ease-in-out; 
 }
  
 .animation-all {
-  animation: entradaTexto 2s ease-in-out;
+  animation: entradaTexto 5s ease-in-out;
 }
 
 @media (max-width: 768px) {
@@ -170,6 +170,8 @@ h1 {
     font-size: .5em;
   }
 }
+
+
 
 .collage {
   display: grid;
