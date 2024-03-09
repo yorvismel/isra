@@ -88,6 +88,26 @@ h1 {
   font-size: 1em; /* Ajusta este valor según tu preferencia */
 }
 
+.whatsapp-tooltip {
+  position: absolute;
+  bottom: 120%; /* Ajusta la posición vertical según tus necesidades */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #25d366;
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.whatsapp-btn:hover .whatsapp-tooltip {
+  opacity: 1;
+}
+
+
 @media (max-width: 768px) {
   .whatsapp-btn {
       bottom: 10%;
